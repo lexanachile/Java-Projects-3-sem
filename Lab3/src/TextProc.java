@@ -27,13 +27,13 @@ public class TextProc {
         while ((line = reader.readLine()) != null) {
             if (line.isEmpty()) {
                 emptyLineCount++;
-                if (emptyLineCount >= 1) {
+                if (emptyLineCount >= 2) {
                     break;
                 }
             } else {
                 emptyLineCount = 0;
-                textBuilder.append(line).append("\n");
             }
+            textBuilder.append(line).append("\n");
         }
 
         return textBuilder.toString().trim();

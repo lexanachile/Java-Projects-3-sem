@@ -1,0 +1,52 @@
+[
+  {
+    "firstName": "Ivan",
+    "lastName": "Ivanov",
+    "middleName": "Ivanovich",
+    "course": 2,
+    "group": "B-123",
+    "gradeBook": {
+      "lastName": "Ivanov",
+      "firstName": "Ivan",
+      "middleName": "Ivanovich",
+      "course": 2,
+      "group": "B-123",
+      "sessions": [
+        {
+          "number": 1,
+          "subject": "Math",
+          "type": "exam",
+          "grade": 10
+        },
+        {
+          "number": 2,
+          "subject": "Physics",
+          "type": "coursework",
+          "grade": 9
+        }
+      ]
+    }
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Petrova",
+    "middleName": "Petrovna",
+    "course": 1,
+    "group": "A-101",
+    "gradeBook": {
+      "lastName": "Petrova",
+      "firstName": "Anna",
+      "middleName": "Petrovna",
+      "course": 1,
+      "group": "A-101",
+      "sessions": [
+        {
+          "number": 1,
+          "subject": "Biology",
+          "type": "exam",
+          "grade": 8
+        }
+      ]
+    }
+  }
+]
